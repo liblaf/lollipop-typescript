@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "allowCompoundWords": true,
+  "enableGlobDot": true,
+  "ignorePaths": [
+    "**/.cspell.*",
+    "**/.git/",
+    "**/*-lock.*",
+    "**/*.lock",
+    "**/*.sum"
+  ],
+  "useGitignore": true,
+  "version": "0.2",
+  "words": [
+    "liblaf",
+    "dotenv",
+    "stefanzweifel",
+    "pids",
+    "jscoverage",
+    "wscript",
+    "jspm",
+    "nuxt",
+    "vuepress",
+    "tsup"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "@liblaf/lollipop",
+  "version": "0.0.0",
+  "description": "TODO",
+  "keywords": [
+    "TODO"
+  ],
+  "homepage": "https://github.com/liblaf/lollipop-typescript",
+  "bugs": {
+    "url": "https://github.com/liblaf/lollipop-typescript/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "liblaf",
+    "url": "https://github.com/liblaf",
+    "email": "30631553+liblaf@users.noreply.github.com"
+  },
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "bin": {
+    "hello": "./dist/hello.js",
+    "cspell-init": "./dist/cspell-init.js"
+  },
+  "type": "module",
+  "repository": "github:liblaf/lollipop-typescript",
+  "scripts": {
+    "build": "tsup",
+    "lint": "biome check --write",
+    "prepack": "tsup"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "cspell": "^8.17.5",
+    "execa": "^9.5.2",
+    "pathe": "^2.0.3",
+    "prettier": "^3.5.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@tsconfig/bun": "^1.0.7",
+    "@types/bun": "^1.2.5",
+    "tsup": "^8.4.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org",
+    "provenance": true
+  },
+  "readme": "README.md"
+}
