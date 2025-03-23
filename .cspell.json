@@ -12,15 +12,15 @@
   "useGitignore": true,
   "version": "0.2",
   "words": [
-    "liblaf",
     "dotenv",
-    "stefanzweifel",
-    "pids",
     "jscoverage",
-    "wscript",
     "jspm",
+    "liblaf",
     "nuxt",
+    "pids",
+    "stefanzweifel",
+    "tsup",
     "vuepress",
-    "tsup"
+    "wscript"
   ]
 }

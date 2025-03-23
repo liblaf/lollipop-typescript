@@ -93,7 +93,7 @@ function main(): void {
       const words: Set<string> = await findWords(config);
       await Bun.write(
         path.join(root, ".cspell.json"),
-        await dumpsConfig({ ...config, words: [...words] }),
+        await dumpsConfig({ ...config, words: Array.from(words).sort() }),
       );
     });
   program.parse();
