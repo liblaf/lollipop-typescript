@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "commander": "^13.1.0",
-    "cspell": "^8.17.5",
+    "cspell": "^9.0.0",
     "execa": "^9.5.2",
     "pathe": "^2.0.3",
     "prettier": "^3.5.3"
