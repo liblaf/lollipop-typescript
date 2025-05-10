@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.2](https://github.com/liblaf/lollipop-typescript/compare/v0.0.1...v0.0.2) (2025-05-10)
+
+
+### ⬆️ Dependencies
+
+* **deps:** update dependency cspell to v9 ([#4](https://github.com/liblaf/lollipop-typescript/issues/4)) ([16fc2ca](https://github.com/liblaf/lollipop-typescript/commit/16fc2ca0bf93aaf233fd4e646ff79632b1dcdf12))
+
 ## [0.0.1](https://github.com/liblaf/lollipop-typescript/compare/v0.0.0..v0.0.1) - 2025-03-23
 
 ### 🐛 Bug Fixes
