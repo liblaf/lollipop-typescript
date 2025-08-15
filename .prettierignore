@@ -1,7 +1,5 @@
 **/.manifest.json
 **/*-lock.*
-**/*.cts
 **/*.lock
-**/*.mts
 **/*.ts
 **/*.tsx
